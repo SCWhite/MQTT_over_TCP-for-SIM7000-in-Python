@@ -45,8 +45,8 @@ A python method for sending MQTT through TCP from SIM7000 using NBIOT
 
 
 ## MQTT說明
-MQTT是一種輕量化的通訊協定，同時具備負載性高、頻道制、廣播等等特性。
-大略可以分成3個部分:
+MQTT是一種輕量化的通訊協定，同時具備負載性高、頻道制、廣播等等特性。  
+大略可以分成3個部分:  
 
 - Broker
 負責管理每個Client的訊息發布與訂閱狀態
@@ -90,7 +90,7 @@ AT+CIPCLOSE //完成傳輸後關閉連線
 
 ## 疑難雜症與常用指令
 
-Q:SIM 7000E 沒有反應?
+Q:SIM 7000E 沒有反應?  
 檢查鮑率 我拿到這批預設57600 
 
 檢查SIM卡:
@@ -110,20 +110,20 @@ AT+CSQ
 
 
 ## 補充資料
-讓 Raspberry PI 聯網：使用 SIM7000C NB-IoT 模組:
+讓 Raspberry PI 聯網：使用 SIM7000C NB-IoT 模組:  
 https://frankchang.me/2018/12/18/sim7000c/
 
-MQTT over TCP:
+MQTT over TCP:  
 https://www.raviyp.com/embedded/224-mqtt-protocol-tutorial-using-mosquitto-and-cloudmqtt
 https://www.raviyp.com/embedded/226-mqtt-protocol-tutorial-using-sim900-sim800-modules-mqtt-over-tcp
 
-NB-IoT SIM7000C调试笔记 01 NB-IoT及GPRS加网测试:
+NB-IoT SIM7000C调试笔记 01 NB-IoT及GPRS加网测试:  
 https://blog.csdn.net/iotisan/article/details/78704608
 
-用AT命令建立/调试SIM800C的GPRS连接:
+用AT命令建立/调试SIM800C的GPRS连接:  
 https://blog.csdn.net/aLife2P6/article/details/82704371#fnref:6
 
-SIM7000C在NB模式下的非透传模式的TCPIP:
+SIM7000C在NB模式下的非透传模式的TCPIP:  
 https://blog.csdn.net/putiputiti/article/details/80661342
 
 ## 測試結果
