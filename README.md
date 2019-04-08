@@ -17,6 +17,7 @@ A python method for sending MQTT through TCP from SIM7000 using NBIOT
 - [ ] 長度16383 Byte以上的封包 ~~如果真的用到 那你是不是弄錯了什麼?~~
 - [ ] 自訂參數(QoS/Keepalive/)
 - [ ] MQTT訂閱
+- [ ] 各個功能分開寫(這個我會做到)  
 ~~除非用到 回來補的機會不大了~~
 
 ## 緣起
